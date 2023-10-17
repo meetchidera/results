@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+body{
+    font-family: 'Hanken Grotesk';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.left h4{
+    color: hsla(221, 100%, 96%, 0.4) ;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.lefttext h5{
+    margin-left: 40px;
+    font-size: small;
+    margin-right: 30px;
+}
+    .leftscore{
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1) ;
+margin:0 auto;
+padding: 50px;
+width: 74px;
+height: 74px;
+border-radius: 100%;
+}
+.left{
+    border-radius: 25px;
+    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1) ;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+    height: 380px;
+    padding: 50px;
+    width: 280px;
+    flex-direction: column;
+}
+.right{
+    display: inline-block;
+    justify-content: center;
+    margin-left: 40px;
+}
+.bigscore{
+    display: flex;
+    justify-content: center;
+   font-size:50px ;
+   font-weight: bold;
+   color: white;
+}
+.smallscore{
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+    color:white ;
+}
+.lefttext h3{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+.lefttext h5{
+    display: flex;  
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+}
+.right{
+    margin-bottom: 120px;
+}
+.no{
+    padding-right: 10px;
+    color: black;
+}
+.scores-con{
+    display: flex;
+    align-items: center;
+}
+ .scores{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 1rem 0.5rem;
+ font-size: large;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+svg{
+    padding: 0.5rem;
+}
+.scores:nth-child(1) {
+    background-color:hsla(0, 100%, 67%, 0.1) ;
+    color: hsl(0, 100%, 67%);
+}
+.scores:nth-child(2) {
+    background-color: hsla(39, 100%, 56%, 0.1) ;
+    color: hsl(39, 100%, 56%) ;
+}
+.scores:nth-child(3) {
+    background-color: hsla(166, 100%, 37%, 0.1) ;
+    color: hsl(166, 100%, 37%) ;
+}
+.scores:nth-child(4) {
+    background-color:hsla(234, 85%, 45%, 0.1)  ;
+    color:hsl(234, 85%, 45%)  ;
+}
+button{
+    background-color:hsl(224, 30%, 27%) ;
+    width: 100%;
+    border-radius: 40px;
+    height: 50px;
+    color: white;
+}
